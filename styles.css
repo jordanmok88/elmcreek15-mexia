@@ -124,8 +124,10 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.12;letter-spacing:-.
 
 /* location */
 .location__wrap{display:grid;grid-template-columns:1.6fr 1fr;gap:1.6rem;align-items:stretch}
-.location__map{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);min-height:340px}
-.location__map iframe{width:100%;height:100%;border:0;min-height:340px}
+.location__map{position:relative;display:block;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);min-height:340px}
+.location__map img{width:100%;height:100%;min-height:340px;object-fit:cover;display:block}
+.location__maptag{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.94);color:var(--green-dk);
+  font-weight:700;font-size:.85rem;padding:.45rem .8rem;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.18)}
 .location__list{list-style:none;display:grid;gap:.7rem;align-content:center}
 .location__list li{background:var(--soft);border-radius:12px;padding:1rem 1.2rem;font-size:1.02rem}
 .location__list strong{color:var(--green-dk)}
