@@ -176,8 +176,10 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.12;letter-spacing:-.
   .features__grid{grid-template-columns:1fr}
   .staged__grid{grid-template-columns:1fr}
   .staged__item:first-child{grid-column:auto}
-  .gallery__grid{grid-template-columns:1fr 1fr;gap:.55rem}
-  .gallery__cell:first-child{grid-column:span 2;grid-row:span 1;aspect-ratio:16/10}
+  .gallery__grid{display:block;column-count:2;column-gap:.55rem;grid-template-columns:none;grid-auto-flow:row}
+  .gallery__cell{display:block;width:100%;margin:0 0 .55rem;aspect-ratio:auto;break-inside:avoid}
+  .gallery__cell:first-child{grid-column:auto;grid-row:auto}
+  .gallery__cell img{height:auto;aspect-ratio:auto}
   .hero__cta .btn{flex:1 1 100%}
   body{padding-bottom:64px}
   .sticky-call{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:40;
