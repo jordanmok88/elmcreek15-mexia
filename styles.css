@@ -92,7 +92,8 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.12;letter-spacing:-.
 /* features */
 .features__grid{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
 .features__grid li{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.6rem;box-shadow:var(--shadow-sm)}
-.feat__ico{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#e3f1e6;color:var(--green-dk);font-size:1.3rem;margin-bottom:.9rem}
+.feat__ico{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:12px;background:#e3f1e6;color:var(--green-dk);margin-bottom:.9rem}
+.feat__ico svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
 .features__grid h3{font-size:1.12rem;font-weight:600;margin-bottom:.3rem}
 .features__grid p{color:var(--muted);font-size:.96rem}
 
