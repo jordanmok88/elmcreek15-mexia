@@ -86,7 +86,7 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.12;letter-spacing:-.
   padding:.28rem .6rem;border-radius:999px;margin-left:.6rem;position:relative;top:-.25em}
 .staged__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
 .staged__item{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);background:#eee}
-.staged__item img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+.staged__item img{width:100%;height:100%;object-fit:cover;object-position:left bottom;aspect-ratio:3/2}
 .staged__disclaimer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:1.1rem;font-style:italic}
 
 /* features */
