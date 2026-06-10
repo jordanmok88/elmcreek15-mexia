@@ -113,6 +113,7 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.12;letter-spacing:-.
 .trust li{display:flex;align-items:center;gap:.8rem;background:#fff;border:1px solid var(--line);border-radius:12px;
   padding:.9rem 1.1rem;font-weight:500;box-shadow:var(--shadow-sm)}
 .trust__ico{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--green);color:#fff;font-size:.8rem;flex:none}
+.trust__ico svg{width:15px;height:15px;fill:none;stroke:#fff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
 
 /* gallery */
 .gallery__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.9rem}
@@ -167,7 +168,7 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.12;letter-spacing:-.
 @media(max-width:600px){
   .hero{min-height:88vh}
   .hero__phone{display:none}
-  .hero__logo img{height:32px}
+  .hero__logo img{height:52px}
   .facts{position:static}
   .fact{min-width:33.33%;border-bottom:1px solid var(--line)}
   .fact:nth-child(3n){border-right:none}
